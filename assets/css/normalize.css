@@ -13,8 +13,11 @@
 }
 
 .wrapper {
-    background-image: url("../images/back-light.avif");
+    background-image: url("../images/back-light.jpg");
     background-size: cover;
+}
+.Evgenii{
+    font-family: 'Kaushan Script', cursive;
 }
 
 h1,
@@ -23,7 +26,7 @@ h3,
 h4,
 h5,
 h6{
-    font-family: Poppins;
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     line-height: normal;
     font-weight: 600;
@@ -62,5 +65,33 @@ button{
     font-size: 16px;
     font-weight: 600;
     color: var(--text-white);
-    background: var(--text-main-blue);
+    background: var(--text-main-blue); 
+}
+.btn-demo{
+    transition: 1s;
+}
+.btn-demo:hover{
+    transform: scale(110%);
+    color: var(--text-main-blue);
+    background: none;
+}
+.btn-demo:active{
+    color: var(--text-main-blue);
+    background: none;
+    font-size: 12px;
+    transition: 0ms;
+}
+.btn-contact{
+    transition: 1s;
+}
+.btn-contact:hover{
+    transform: scale(110%);
+    color: var(--text-main-blue);
+    background: none;
+}
+.btn-contact:active{
+    color: var(--text-main-blue);
+    background: none;
+    font-size: 12px;
+    transition: 0ms;
 }
