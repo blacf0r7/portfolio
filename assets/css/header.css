@@ -1,30 +1,27 @@
 .header {
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+
+  border-bottom: 1px solid var(--border-color);
 }
 .header-logo {
-    
 }
 .header_navigation {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
 }
 .header_menu-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 .header_menu-item {
-    
 }
 .header_theme-button {
-    width: 50px;
-    height: 20px;
-    
+  width: 50px;
+  height: 20px;
 }
