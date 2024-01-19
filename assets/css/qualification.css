@@ -1,0 +1,17 @@
+.qualific__item {
+  /* border-width: 10px;
+  border-style: solid;
+  border-color: black; */
+  border-radius: 10px;
+  border: 1px solid #dbdbdb;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.qualific__buttons {
+  display: flex;
+  gap: 40px;
+}
