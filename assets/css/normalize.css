@@ -59,15 +59,15 @@ h3 {
 }
 h4,
 p {
-  color: var(--text-dark);
+  color: var(--text-main-blue);
   font-size: 16px;
 }
 h5 {
-  color: var(--text-dark);
+  color: var(--text-main-blue);
   font-size: 14px;
 }
 h6 {
-  color: var(--text-gray);
+  color: var(--text-main-blue);
   font-size: 12px;
   font-weight: 400;
 }
@@ -109,7 +109,6 @@ button {
   font-size: 12px;
   transition: 0ms;
 }
-.main{
+.main {
   display: flex;
-  
 }

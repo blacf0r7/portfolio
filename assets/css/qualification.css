@@ -14,4 +14,16 @@
 .qualific__buttons {
   display: flex;
   gap: 40px;
+  margin-top: 20px;
+}
+.qualific__list {
+  display: flex;
+  gap: 35px;
+  margin-top: 40px;
+}
+.qualific__choice {
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
