@@ -1,32 +1,27 @@
-header {
-  width: 100%;
-  height: 70px;
-  background-color: rgb(204, 224, 242);
+.header {
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 80px;
+  padding: 10px 30px;
+
+  border-bottom: 1px solid var(--border-color);
 }
-.header-navigation {
+.header-logo {
+}
+.header_navigation {
   display: flex;
-  background-color: rgb(255, 255, 255);
   justify-content: space-between;
-  max-width: 400px;
-  width: 100%;
   padding: 10px 0;
 }
-.header-menu-nav {
+.header_menu-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
 }
-.header-menu-item {
-  width: 20px;
-  height: 8px;
-  background-color: bisque;
+.header_menu-item {
 }
-.header-theme-button {
-  background-color: aquamarine;
+.header_theme-button {
   width: 50px;
-  height: 8px;
+  height: 20px;
 }
