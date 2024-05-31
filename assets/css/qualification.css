@@ -26,4 +26,8 @@
   display: flex;
   gap: 8px;
   align-items: center;
+  color: #5671a6;
+}
+.qualific__choice h5 {
+  color: inherit;
 }
